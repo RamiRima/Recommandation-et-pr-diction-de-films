@@ -8,7 +8,7 @@ Ce projet développe un système de recommandation et de prédiction de films ba
 - Les colonnes utilisés : 
  Rating.csv : userId, movieId, rating
  Movie.csv : movieId, title, genres
-# Algo /Modèl
+# Algo /Modèle
 - Etape 1: Création des TF-IDF sur les titres des films et sur leurs catégories.
 - Etape 2: Modèle Item Based (IB) Filtering, Pour chaque film: rating = 95% x (IB sur Catégorie ) + 5% x (IB sur Titre) 
 - Etape 3: Modèle User Based Filtering
